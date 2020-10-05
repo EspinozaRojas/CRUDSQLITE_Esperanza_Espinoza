@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:gravity="center"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/botonre6"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/btnBuscar"
+        android:layout_width="347dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/botonre3"
+        android:hint="Ingrese el código:"
+        android:inputType="number"
+        android:padding="8dp"
+        android:paddingLeft="25dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/botonre4"
+        android:drawablePadding="0dp"
+        android:paddingLeft="10dp"
+        android:shadowColor="@color/sub"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="8"
+        android:text="BUSCAR"
+        android:textColor="@color/white"></Button>
+
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:text="Busqueda por código"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="205dp"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelbusc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cancel"></ImageButton>
+
+    </LinearLayout>
+</RelativeLayout>

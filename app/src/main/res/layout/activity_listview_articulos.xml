@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".listview_articulos">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/botonre4"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/btnvol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bacl"
+                android:onClick="vol"
+                android:src="@drawable/bacl">
+
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Lista de Articulos Registrados"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <SearchView
+            android:id="@+id/buscador"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/botonre5"
+            app:queryHint="Search men"
+            android:layout_height="wrap_content">
+
+
+        </SearchView>
+
+        <ListView
+            android:id="@+id/lsview"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/botonre5"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Espinoza Rojas"
+            android:textAlignment="center"
+
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="italic">
+
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
